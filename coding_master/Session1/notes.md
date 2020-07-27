@@ -1,6 +1,5 @@
-# 개념정리
-mutable, immutable
-iterable, non-iterable
+개념정리
+=======
 
 ## 자료형
 int 범위 제한이 없다?? BigInt 이런거 안 써도 된다는거네
