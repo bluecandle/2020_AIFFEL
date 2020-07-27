@@ -35,9 +35,14 @@ import sys
 
       단, 채점을 위해 코드를 제출하실 때에는 반드시 아래 구문을 지우거나 주석 처리 하셔야 합니다.
 '''
-sys.stdin = open("input1.txt", "r")
+sys.stdin = open("input2.txt", "r")
 
+# K 충전 후 한번에 이동 가능한 정류장 수
+# N 이 종점
+# M 충전기가 설치된 정류장 번호 수
+# 도착할 수 없으면 0
 T = int(input())
+
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 for test_case in range(1, T + 1):
     # ///////////////////////////////////////////////////////////////////////////////////
@@ -46,23 +51,51 @@ for test_case in range(1, T + 1):
         이 부분에 여러분의 알고리즘 구현이 들어갑니다.
 
     '''
-    result = 0
-    lenNum = int(input())
-    nums = list()
-
-    # print(lenNum)
+    # 최소 몇 번의 충전을 통해 종점에 도착할 수 있느냐??
+    steps = 0
+    K, N, M = map(int, input().split())
+    stations =list(map(int,input().split()))
+    print(K,N,M)
     
-    nums = list(map(int,input().split()))
+    # N 까지 가야하는데, 한 번 충전 이후에 K 개의 정류장을 이동할 수 있고, stations list 에 충전기가 설치된 정류장의 번호가 있다.
 
-    max = nums[0]
-    min = nums[0]
-    # print(nums)
-    for num in nums:
-        if(num > max):
-            max = num
-        elif(num < min):
-            min = num
-    result = max-min
+    isPossible = True
+    currentNum = 0
+    trialNum = 0
+
+    # [1] 불가능한 경우 거르기
+    for i in range(0,len(stations)-1):
+        prev = i
+        to = i+1
+        diff = stations[to] - stations[prev]
+        if(diff > K):
+            isPossible = False
+            break
+
+    # [1] 불가능한 경우 거르기
+    if(isPossible is False):
+        print('#{0} {1}'.format(test_case,steps))
     
-    print('#{0} {1}'.format(test_case,result))
+    # [2] 가능한 경우, step 을 구한다
+    else:
+        while(currentNum<N):
+            trialNum +=K
+            if(trialNum in stations):
+                currentNum = trialNum
+                steps+=1
+            else:
+                # station_to = next(filter(lambda station: station < trialNum and station > currentNum, stations))
+                station_to = 0
+                for station in stations:
+                    if(station < trialNum and station > currentNum):
+                        station_to = station
+                        break
+                # print(station_to)
+                tiralNum = station_to+K
+                currentNum = tiralNum
+                steps+=1  
+
+        print('#{0} {1}'.format(test_case,steps))            
+
+
     # ///////////////////////////////////////////////////////////////////////////////////
