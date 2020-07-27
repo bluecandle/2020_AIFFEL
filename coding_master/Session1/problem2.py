@@ -79,7 +79,7 @@ for test_case in range(1, T + 1):
     # [2] 가능한 경우, step 을 구한다
     else:
         while(currentNum<N):
-            trialNum +=K
+            trialNum += K
             if(trialNum in stations):
                 currentNum = trialNum
                 steps+=1
