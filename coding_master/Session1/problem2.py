@@ -45,23 +45,16 @@ T = int(input())
 
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 for test_case in range(1, T + 1):
-    # ///////////////////////////////////////////////////////////////////////////////////
-    '''
-
-        이 부분에 여러분의 알고리즘 구현이 들어갑니다.
-
-    '''
+    
     # 최소 몇 번의 충전을 통해 종점에 도착할 수 있느냐??
     steps = 0
     K, N, M = map(int, input().split())
     stations =list(map(int,input().split()))
-    print(K,N,M)
-    
+    # print(K,N,M)
+    # print(stations)
     # N 까지 가야하는데, 한 번 충전 이후에 K 개의 정류장을 이동할 수 있고, stations list 에 충전기가 설치된 정류장의 번호가 있다.
 
-    isPossible = True
-    currentNum = 0
-    trialNum = 0
+    isPossible = True    
 
     # [1] 불가능한 경우 거르기
     for i in range(0,len(stations)-1):
@@ -78,22 +71,32 @@ for test_case in range(1, T + 1):
     
     # [2] 가능한 경우, step 을 구한다
     else:
+        steps = 0
+        currentNum = 0
+        prevNum = 0
         while(currentNum<N):
-            trialNum += K
-            if(trialNum in stations):
-                currentNum = trialNum
+            # 우선 최대한 갈 수 있는 만큼 이동
+            currentNum += K
+       
+            if(currentNum>=N):               
+                break
+
+            # 갈 수 있는 만큼 이동한 곳에 정류소가 있으면 step 증가
+            if(currentNum in stations):               
                 steps+=1
+
+            # 존재하지 않음 => 가장 가까운 정류소를 찾는다
             else:
-                # station_to = next(filter(lambda station: station < trialNum and station > currentNum, stations))
-                station_to = 0
-                for station in stations:
-                    if(station < trialNum and station > currentNum):
-                        station_to = station
-                        break
-                # print(station_to)
-                tiralNum = station_to+K
-                currentNum = tiralNum
-                steps+=1  
+                # 출발지점과 일단 최대로 이동한 지점 사이에서 최대로 이동한 지점과 가장 가까운 station 을 찾는다.
+                sts = [x for x in stations if x > prevNum and x< currentNum]
+                # print(sts)           
+                station_to = min(sts, key = lambda x: currentNum-x)
+                # cands = next(x for x in stations if (x > prevNum and min(currentNumx)))
+                # print('asdf',station_to)
+                currentNum = station_to            
+                steps+=1
+
+            prevNum = currentNum
 
         print('#{0} {1}'.format(test_case,steps))            
 
