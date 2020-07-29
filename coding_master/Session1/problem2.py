@@ -66,7 +66,7 @@ for test_case in range(1, T + 1):
             break
 
     # [1] 불가능한 경우 거르기
-    if(isPossible is False):
+    if(not isPossible):
         print('#{0} {1}'.format(test_case,steps))
     
     # [2] 가능한 경우, step 을 구한다
