@@ -17,42 +17,14 @@
 numbers = [6, 10, 2]
 # numbers = [6, 10, 2,100,219, 200,201,90,91,210]
 def solution(numbers):
-    
-    # 한 자리, 두 자리, 세 자리를 나눈다.
-    # 0~9
-    # class1 = []
-    # # [][]
-    # class2 = [[]*1 for i in range(10)]
-    # # [][][]
-    # class3 = [[[]*1 for i in range(10)]*1 for j in range(10)]    
-    # class4 = []
+    numbers = list(map(str,numbers))
+    result = sorted(numbers,key=lambda x: (x[0], x[1%len(x)], x[2%len(x)], x[3%len(x)]), reverse=True)
+    # print(result)
 
-    # # 입력된 모든 숫자를 분류한다. O(N)
-    # for number in numbers:
-    #     if(number <10):
-    #         class1.append(number)
-    #     elif(number <100):
-    #         class2[(number//10)].append(number)
-    #     elif(number<1000):
-    #         class3[(number//100)][(number//10)%10].append(number)
-    #     else:
-    #         class4.append(number)
-
-    # # 입력된 행렬들을 각각 정렬. O(1)
-    # class1.sort()
-    
-    # for i in range(len(class2)):
-    #     class2[i].sort()
-    
-    # for i in range(len(class3)):
-    #     for j in range(len(class3[i])):
-    #         class3[i][j].sort()
-    
-    # print(class1,class2,class3)
-
-    
-    
-    answer = ''
-    return answer
+    answer = ''.join(result)
+    if int(answer) == 0:
+        return '0'
+    else:
+        return answer
 
 print(solution(numbers))

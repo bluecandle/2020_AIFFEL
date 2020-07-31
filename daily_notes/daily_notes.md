@@ -18,3 +18,8 @@ AIFFEL Daily notes
 
 # 6일차 2020.07.30
 [6일차](https://www.notion.so/bluecandle/AIFFE_6-2020-07-30-b3ae74b468014969a667e4d97cee7069)
+
+# 7일차 2020.07.31
+[7일차](https://www.notion.so/bluecandle/AIFFEL_7-2020-07-31-73965a729425433ab802565a887116ca)
+
+
