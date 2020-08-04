@@ -23,20 +23,25 @@
 # 예제 #3
 # mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
 
-
 def solution(participant, completion):
 
-    answer = 0
-
+    answer = ''
+    
     participant.sort()
     completion.sort()
-    d = list(zip(participant,completion))
-    print (d)
+
+    for i,p in enumerate(participant):
+        if i >= len(completion):
+            answer  = participant[i]
+            break
+        if (p !=completion[i]):
+            answer = p
+            break
+
     return answer
 
 
 
 # solution(['leo', 'kiki', 'eden'], ['kiki', 'eden'])
-# print(solution(['leo', 'kiki', 'eden'], ['kiki', 'eden']))
-# print(solution(['mislav', 'stanko', 'mislav', 'ana'], ['stanko','ana', 'mislav']))
-solution(['mislav', 'stanko', 'mislav', 'ana'], ['stanko','ana', 'mislav'])
+print(solution(['leo', 'kiki', 'eden'], ['kiki', 'eden']))
+print(solution(['mislav', 'stanko', 'mislav', 'ana'], ['stanko','ana', 'mislav']))
