@@ -34,5 +34,7 @@ AIFFEL Daily notes
 # 11일차 2020.08.06
 [11일차](https://www.notion.so/bluecandle/AIFFEL_11-2020-08-06-1fbf9b6cf3c04287b89df092457cced7)
 
+# 12일차 2020.08.07
+[12일차](https://www.notion.so/bluecandle/AIFFEL_12-2020-08-07-e066f6e95aca45aca0baed0878450c03)
 
 
