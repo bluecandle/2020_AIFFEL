@@ -35,18 +35,30 @@ def solution(phone_book):
     
     # for idx,p in enumerate(phone_book):
     #     for i in range(idx+1,len(phone_book)):
-    #         b =phone_book[i][:len(p)]
+    #         b = phone_book[i][:len(p)]
     #         if(p == b):
     #             answer = False
     #             break   
 
-    # return answer
-
-    answer = True
+    # return answer    
     
-       
+    answer = True
+    # 생각해보니, phone_book 에 들어있는 숫자들을 길이에 따라 sort 할 필요 없이, 그냥 sort 하면 최대한 비슷한 숫자들끼리 붙여서 정렬을 해주게된다.
+    phone_book.sort()
+                
+    for idx in range(len(phone_book)-1):        
+        p1 = phone_book[idx]
+        p2 = phone_book[idx+1]
 
-    return answer
+        if p1 in p2:
+            answer = False
+            break
 
+    return answer 
+    
+
+  
 print(solution(['119', '97674223', '1195524421']))
 print(solution(['123','456','789']))
+print(solution(['123','456','789','123']))
+
