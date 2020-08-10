@@ -41,7 +41,6 @@ def solution(participant, completion):
     return answer
 
 
-
 # solution(['leo', 'kiki', 'eden'], ['kiki', 'eden'])
 print(solution(['leo', 'kiki', 'eden'], ['kiki', 'eden']))
 print(solution(['mislav', 'stanko', 'mislav', 'ana'], ['stanko','ana', 'mislav']))
