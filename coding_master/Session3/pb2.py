@@ -44,6 +44,7 @@ def solution(phone_book):
     
     answer = True
     # 생각해보니, phone_book 에 들어있는 숫자들을 길이에 따라 sort 할 필요 없이, 그냥 sort 하면 최대한 비슷한 숫자들끼리 붙여서 정렬을 해주게된다.
+    # string 비교의 특성에 의해!
     phone_book.sort()
                 
     for idx in range(len(phone_book)-1):        

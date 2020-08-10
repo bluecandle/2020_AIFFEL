@@ -53,31 +53,9 @@ def solution(clothes):
             cloth_dict[c_type] = [c_item]
 
     items = list(cloth_dict.items())        
-    # print(items)   
 
-    # len_list = [len(i[1]) for i in items]
-    # # len_list = [3,2,1,4]
-
-    # print(len_list)
-    
-    # for x in range(len(len_list)):
-    #     print('x',x)
-    #     answer+=len_list[x]
-
-    #     for y in range(len(len_list)-1,x,-1):            
-    #         print('y',y)
-
-    #         temp = len_list[x]        
-    #         for z in range(len(len_list)-y+x,len(len_list)):
-    #             print('z',z)
-    #             temp *= len_list[z]
-            
-    #         answer += temp
-    #         print('====answer',answer)
-            
-    # return answer
-
-    # print(items)
+    # for loop 으로 3*2, 3*1, 3*4, 3*2*1, 3*2*4, 3*2*1*4, ... 를 다 구현하려고 하였으나!
+    # 하다가 막히기도 했고, 숫자를 적다보니 각 카테고리에 대해 하나의 경우의 수를 추가한 곱셈의 형태로 만들 수 있더라!
 
     for i in items:
         answer*=len(i[1])+1
