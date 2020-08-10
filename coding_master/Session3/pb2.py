@@ -46,8 +46,14 @@ def solution(phone_book):
     # 생각해보니, phone_book 에 들어있는 숫자들을 길이에 따라 sort 할 필요 없이, 그냥 sort 하면 최대한 비슷한 숫자들끼리 붙여서 정렬을 해주게된다.
     # string 비교의 특성에 의해!
     phone_book.sort()
+
+    # 이렇게 key 라는 값에 lambda 사용하듯(lambda도 함수! 익명함수) 함수를 사용할 수 있다.   
+    # key_test = sorted(phone_book, key=len)
+    # print(key_test)
                 
-    for idx in range(len(phone_book)-1):        
+    for idx in range(len(phone_book)-1): 
+
+               
         p1 = phone_book[idx]
         p2 = phone_book[idx+1]
 

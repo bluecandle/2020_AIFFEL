@@ -54,11 +54,18 @@ def solution(clothes):
 
     items = list(cloth_dict.items())        
 
-    # for loop 으로 3*2, 3*1, 3*4, 3*2*1, 3*2*4, 3*2*1*4, ... 를 다 구현하려고 하였으나!
+
+    # for loop 으로 3, 3*2, 3*1, 3*4, 3*2*1, 3*2*4, 3*1*4, 3*2*1*4, ... 를 다 구현하려고 하였으나!
+    # 2, 2*1, 2*4, 2*1*4
+    # 1, 1*4
+    # 4
     # 하다가 막히기도 했고, 숫자를 적다보니 각 카테고리에 대해 하나의 경우의 수를 추가한 곱셈의 형태로 만들 수 있더라!
 
     for i in items:
         answer*=len(i[1])+1
+
+    # for i in cloth_dict.values():
+    #     answer *= (len(i)+1)
     
     answer -= 1
     return answer
