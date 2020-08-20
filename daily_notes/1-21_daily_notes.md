@@ -57,3 +57,6 @@ AIFFEL Daily notes
 
 # 19일차 2020.08.19
 [19일차](https://www.notion.so/bluecandle/AIFFEL_19-2020-08-19-5a522754ce38432fbf8d8317bbe97705)
+
+# 20일차 2020.08.20
+[20일차](https://www.notion.so/bluecandle/AIFFEL_20-2020-08-20-5b8f7e630f8d4c35bd96e90e6d877805)
