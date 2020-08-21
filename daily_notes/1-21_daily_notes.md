@@ -60,3 +60,6 @@ AIFFEL Daily notes
 
 # 20일차 2020.08.20
 [20일차](https://www.notion.so/bluecandle/AIFFEL_20-2020-08-20-5b8f7e630f8d4c35bd96e90e6d877805)
+
+# 21일차 2020.08.21
+[21일차](https://www.notion.so/bluecandle/AIFFEL_21-2020-08-21-630e57273f5d4a5ca1b466a85d28ac13)
