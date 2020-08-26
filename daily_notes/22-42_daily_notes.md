@@ -4,10 +4,9 @@
 # 23일차
 [23일차](https://www.notion.so/bluecandle/AIFFEL_23-2020-08-25-9667adb0edb549d89e32ac661075d816)
 
-------
-
 # 24일차
-[24일차]()
+[24일차](https://www.notion.so/bluecandle/AIFFEL_24-2020-08-26-51c211eed4e6429cac8b15f9f5464d74)
+------
 
 # 25일차
 [25일차]()
