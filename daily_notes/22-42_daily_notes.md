@@ -6,6 +6,7 @@
 
 # 24일차
 [24일차](https://www.notion.so/bluecandle/AIFFEL_24-2020-08-26-51c211eed4e6429cac8b15f9f5464d74)
+
 ------
 
 # 25일차
