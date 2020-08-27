@@ -10,9 +10,7 @@
 # 25일차
 [25일차](https://www.notion.so/bluecandle/AIFFEL_25-2020-08-27-5b11676f497c4bb4b645079a8627e3d2)
 
-
 ------
-
 
 # 26일차
 [26일차]()
