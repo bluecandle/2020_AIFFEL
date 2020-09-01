@@ -16,5 +16,8 @@
 # 27일차
 [27일차](https://www.notion.so/bluecandle/AIFFEL_27-2020-08-31-4187424d44ad4f1894de578e97d32a0f)
 
+# 28일차
+[28일차](https://www.notion.so/bluecandle/AIFFEL_28-2020-09-01-cf0a487f167948eea3dcc6dee2496f88)
+
 ------
 
