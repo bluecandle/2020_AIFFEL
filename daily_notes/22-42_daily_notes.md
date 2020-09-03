@@ -22,5 +22,8 @@
 # 29일차
 [29일차](https://www.notion.so/bluecandle/AIFFEL_29-2020-09-02-85698b8a81fe489e96a92ed054436c9b)
 
+# 30일차
+[30일차](https://www.notion.so/bluecandle/AIFFEL_30-2020-09-03-5905df431e114bad83903e15f6d2ab0e)
+
 ------
 
