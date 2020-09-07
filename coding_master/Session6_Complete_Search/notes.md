@@ -11,7 +11,7 @@ Exhaustive Search
 - 비트마스크 : 이진수 표현을 자료구조로 쓰는 기법 (AND, OR, XOR, SHIFT, NOT)
 - 순열 : 순열의 시간 복잡도는 O(N!)
     서로 다른 n개의 원소에서 r개의 중복을 허용하지 않고 순서대로 늘어 놓은 수
-- 백트래킹 ( 재귀함수? )
+- [백트래킹](https://semtax.tistory.com/50)
 - [DFS](https://www.notion.so/bluecandle/DFS-Depth-First-Search-880f37d582904d828f2222488ce19c9d)
 - [BFS](https://www.notion.so/bluecandle/BFS-Breadth-First-Search-0ee42b081d85410286c458afa355939d)
 
