@@ -1,3 +1,12 @@
+[notion note](https://www.notion.so/bluecandle/Greedy-Algorithm-3686a3c4a5e440c4a4aa64c1e25dce13)
+
+
+# Greedy Algorithm
+
+GENERAL_TAGS: https://www.notion.so/Python-af0ddf1b47cb408d8f43d249c3bb3650, https://www.notion.so/Algorithm-63ab8660fce2403aab8c4ee9f0d979b1
+Status: 발표
+Tags: AIFFEL_CodeMaster
+
 A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the **optimal choice at each step** as it attempts to find the overall optimal way to solve the entire problem.
 
 각 상황 (local) 에서 최선의 해결책을 찾아내어 전체적으로 최선의 해결책을 낸다.
@@ -18,7 +27,7 @@ Dynamic Programming은 전체 문제를 여러 개의 하위 문제로 나누어
 
 Greedy Algorithm은 문제를 해결하는 과정에서 그 순간순간마다 최적이라고 생각되는 결정을 하는 방식으로 진행하여 최종 해답에 도달하는 문제 해결 방식이다
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11fa2fbc-ae64-4b96-a02c-d80fd1021b21/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11fa2fbc-ae64-4b96-a02c-d80fd1021b21/Untitled.png)
+![images/Untitled.png](images/Untitled.png)
 
 하지만 이러한 단점들을 극복하는 Greedy의 가장 큰 장점은 계산 속도에 있다. 그래서 Greedy 방법이 통하는 몇몇의 문제에서는 최적해를 빠르게 산출해낼 수 있다.
 
@@ -28,7 +37,7 @@ Greedy Algorithm은 문제를 해결하는 과정에서 그 순간순간마다 �
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a838f62c-e149-4226-aaa4-07eaca0e0298/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a838f62c-e149-4226-aaa4-07eaca0e0298/Untitled.png)
+![images/Untitled%201.png](images/Untitled%201.png)
 
 출처 : [https://www.algoskills.com/activityselection.php](https://www.algoskills.com/activityselection.php)
 
@@ -65,7 +74,7 @@ Q. 위의 예시를 가지고 생각해보면?
 
 ### 대표적 예제 1 : 활동 선택 문제(Activity Selection Problem) - 2
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3c08ca4-5e10-45e3-8413-172dda3e6075/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3c08ca4-5e10-45e3-8413-172dda3e6075/Untitled.png)
+![images/Untitled%202.png](images/Untitled%202.png)
 
 이 문제는 동적 프로그래밍을 통해서도 풀 수 있습니다. 하나의 예를 들어 G18을 A1이 종료된 후부터, A8이 시작하기 전 활동들의 집합이라고 보면, G18 = {A3, A5, A6, A7}입니다. 이 중에서 최적의 조합(활동들이 겹치지 않고 개수는 최대)을 B18이라고 하면, 하나의 예로 B18 = {A3, A6}라고 할 수 있습니다. {A3, A7}도 되겠네요.
 
@@ -75,7 +84,7 @@ B18에서 A6를 골랐다고 칩시다. A6를 고르면 이제 문제는 두 개
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d81758d1-4fbd-4a18-8d8f-c7fd2fc11f40/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d81758d1-4fbd-4a18-8d8f-c7fd2fc11f40/Untitled.png)
+![images/Untitled%203.png](images/Untitled%203.png)
 
 가방에 물건을 쪼개서 넣을 수 있다는 조건이 있다면, 무게 대비 가치가 가장 높은 물건부터 ㄱㄱ!
 
@@ -99,7 +108,7 @@ B18에서 A6를 골랐다고 칩시다. A6를 고르면 이제 문제는 두 개
 
 minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d627a729-5cee-4835-b428-ec5bdd125b22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d627a729-5cee-4835-b428-ec5bdd125b22/Untitled.png)
+![images/Untitled%204.png](images/Untitled%204.png)
 
 가중치 합 가장 적게 모든 node(key) 가 연결된 tree
 
