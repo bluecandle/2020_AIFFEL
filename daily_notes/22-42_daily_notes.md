@@ -32,4 +32,7 @@
 [32일차](https://www.notion.so/bluecandle/AIFFEL_32-2020-09-07-a72ee01e318f470f99dd0b47bfcc7547)
 
 # 33일차
-[33일차](https://github.com/bluecandle/2020_AIFFEL/blob/master/daily_notes/exploration_codes/e11_code/E11.ipynb)
+[33일차](https://www.notion.so/bluecandle/AIFFEL_33-2020-09-08-375fc3406b93467ebdb8f45ea75a614e)
+
+# 34일차
+[34일차](https://www.notion.so/bluecandle/AIFFEL_34-2020-09-09-b22849f6759e463fb7ea1c1c48c1c59b)
