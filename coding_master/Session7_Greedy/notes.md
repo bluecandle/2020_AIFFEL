@@ -3,10 +3,6 @@
 
 # Greedy Algorithm
 
-GENERAL_TAGS: https://www.notion.so/Python-af0ddf1b47cb408d8f43d249c3bb3650, https://www.notion.so/Algorithm-63ab8660fce2403aab8c4ee9f0d979b1
-Status: 발표
-Tags: AIFFEL_CodeMaster
-
 A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the **optimal choice at each step** as it attempts to find the overall optimal way to solve the entire problem.
 
 각 상황 (local) 에서 최선의 해결책을 찾아내어 전체적으로 최선의 해결책을 낸다.
