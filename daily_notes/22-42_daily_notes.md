@@ -36,3 +36,8 @@
 
 # 34일차
 [34일차](https://www.notion.so/bluecandle/AIFFEL_34-2020-09-09-b22849f6759e463fb7ea1c1c48c1c59b)
+
+# 35일차
+[35일차](https://www.notion.so/bluecandle/AIFFEL_35-2020-09-10-f7a1c3e21dbf48d68a4d9617152428ce)
+
+
