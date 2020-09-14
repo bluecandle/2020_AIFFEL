@@ -53,13 +53,6 @@ Greedy는
 
 위의 두 가지 조건이 성립되어야 잘 작동한다.
 
-Q. 위의 예시를 가지고 생각해보면?
-
-1. 내가 지금 어떤 액티비티를 시작하든, 이후의 선택에 영향을 주지 않는가?
-2. 시간 내에 최대한 많이 하는 것이 목적. 일단 지금 상황에서 할 수 있는 것을 무조건 하는 것이 최적?
-
-흠...
-
 참조 2
 
 [https://www.zerocho.com/category/Algorithm/post/584ba5c9580277001862f188](https://www.zerocho.com/category/Algorithm/post/584ba5c9580277001862f188)
