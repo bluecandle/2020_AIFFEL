@@ -42,3 +42,6 @@
 
 # 36일차
 [36일차](https://www.notion.so/bluecandle/AIFFEL_36-2020-09-11-ead39894f3aa43f88c289d94061766d1)
+
+# 37일차
+[37일차](https://www.notion.so/bluecandle/AIFFEL_37-2020-09-14-7ec12ca064c04c278633c6ba7484b793)
