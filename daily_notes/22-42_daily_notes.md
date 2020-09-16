@@ -48,3 +48,6 @@
 
 # 38일차
 [38일차](https://www.notion.so/bluecandle/AIFFEL_38-2020-09-15-f8d0b9fcc7f540e3a99331e811176e31)
+
+# 39일차
+[39일차](https://www.notion.so/bluecandle/AIFFEL_39-2020-09-16-2f19fd03bfeb46dbb4b10d0d8e93668a)
