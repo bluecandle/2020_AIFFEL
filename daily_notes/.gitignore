@@ -3,3 +3,6 @@
 *.csv
 *.zip
 *.bin
+*.tar
+*.gz
+*.tar.gz
