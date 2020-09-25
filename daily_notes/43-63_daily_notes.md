@@ -6,3 +6,6 @@
 
 # 45일차
 [45일차](https://www.notion.so/bluecandle/AIFFEL_45-2020-09-24-5525ba1182524fe98c16dcd244fe8536)
+
+# 46일차
+[46일차](https://www.notion.so/bluecandle/AIFFEL_46-2020-09-25-8869f964a070419e827471d8992da32c)
