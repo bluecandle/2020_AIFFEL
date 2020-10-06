@@ -18,3 +18,6 @@
 
 # 49일차
 [49일차](https://www.notion.so/bluecandle/AIFFEL_49-2020-10-05-6725e825ae244e128a05115852a9ae0f)
+
+# 50일차
+[50일차](https://www.notion.so/bluecandle/AIFFEL_50-2020-10-06-ec5b3d68290b436c9d78f8c9d38cf039)
