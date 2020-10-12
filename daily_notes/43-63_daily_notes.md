@@ -27,3 +27,6 @@
 
 # 52일차
 [52일차](https://www.notion.so/bluecandle/AIFFEL_52-2020-10-08-9704919b777e445fa08208fdcf5cf2d5)
+
+# 53일차
+[53일차](https://www.notion.so/bluecandle/AIFFEL_53-2020-10-12-5479f5c0f4d3448ca4d4997eb6336ded)
