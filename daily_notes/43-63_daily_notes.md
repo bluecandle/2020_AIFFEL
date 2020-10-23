@@ -54,3 +54,6 @@
 
 # 61일차
 [61일차](https://www.notion.so/bluecandle/AIFFEL_61-2020-10-22-962ea1a27808495c96fc56df0efb775b)
+
+# 62일차
+[62일차](https://www.notion.so/bluecandle/AIFFEL_62-2020-10-23-45182e1daf7c428492bdaa9d6de8a2a1)
