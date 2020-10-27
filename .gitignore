@@ -1,6 +1,8 @@
 .vscode/
 .ipynb_checkpoints/
 data/
+history/
+model/
 __pycache__/
 *.tsv
 *.csv
